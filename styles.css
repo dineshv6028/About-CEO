@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+.logo{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navbar-brand, .nav-link{
+    color: white !important;
+}
+
+.about-ceo {
+    padding: 50px 0;
+    background: #f8f9fa;
+}
+
+.about-ceo h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.about-ceo img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.about-ceo img:hover {
+    transform: scale(1.1);
+}
+
+.about-ceo p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.about-ceo .btn {
+    transition: background-color 0.3s ease;
+}
+
+.about-ceo .btn:hover {
+    background-color: rgba(223, 53, 49, 0.7);
+    color: #fff;
+}
+
+/* .animate__animated {
+    visibility: hidden;
+} */
+
+.animate__animated.animate__fadeInLeft,
+.animate__animated.animate__fadeInRight,
+.animate__animated.animate__fadeInDown,
+.animate__animated.animate__fadeInUp,
+.animate__animated.animate__zoomIn {
+    visibility: visible;
+    animation-duration: 1s;
+}
+
+.more-content {
+    padding: 50px 0;
+}
+
+.more-content h2 {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.more-content h2::after {
+    content: '';
+    width: 20%;
+    height: 5px;
+    background-color: rgb(223, 53, 49);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+.more-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
